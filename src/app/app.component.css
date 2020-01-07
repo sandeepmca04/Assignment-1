@@ -1,0 +1,22 @@
+.mat-expansion-panel-container{
+    margin: 5vh auto;
+    width: 60vw;
+}
+.note-taker-form-container{
+    display: flex;
+    flex-direction: column;
+}
+.note-card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.error-message{
+    color: red;
+    font-size: 1.5em;
+}
+mat-card{
+    margin:  1em;
+}
